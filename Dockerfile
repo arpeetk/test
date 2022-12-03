@@ -8,4 +8,4 @@ RUN apt-get install protobuf-compiler python-pil python-lxml
 RUN pip install jupyter
 RUN pip install matplotlib
 
-CMD ["python", "linear_regresssion.py"]
+CMD ["python", "linear_regression.py"]
